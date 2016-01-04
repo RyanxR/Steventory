@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_product.xml",
+        "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inventory.xml",
+        "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\layout\\inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanning.xml",
+        "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\layout\\activity_scanning.xml"
+    },
+    {
+        "merged": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\entry.xml",
+        "source": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\src\\main\\res\\layout\\entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items.xml",
+        "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\layout\\items.xml"
+    },
+    {
+        "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items.xml",
+        "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\layout\\items.xml"
+    },
+    {
+        "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_product.xml",
+        "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inventory.xml",
+        "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\layout\\inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_activity1.xml",
+        "source": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\src\\main\\res\\layout\\activity_main_activity1.xml"
+    },
+    {
+        "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanning.xml",
+        "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\layout\\activity_scanning.xml"
+    },
+    {
+        "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\layout\\welcome.xml"
+    }
+]

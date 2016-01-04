@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00796a"
+        android:gravity="left|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_alignParentLeft="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+
+    <!-- Content below header and above footer -->
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e5e1e1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name :"
+            android:id="@+id/textView2"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/input_productname"
+            android:layout_alignBottom="@+id/input_productname"
+            android:layout_toLeftOf="@+id/input_productname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manufacturer :"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/input_manufacturer"
+            android:layout_alignBottom="@+id/input_manufacturer"
+            android:layout_toLeftOf="@+id/input_manufacturer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity : "
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/input_quantity"
+            android:layout_alignBottom="@+id/input_quantity"
+            android:layout_alignLeft="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barcode :"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/input_barcode"
+            android:layout_alignBottom="@+id/input_barcode"
+            android:layout_toLeftOf="@+id/input_barcode" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_productname"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:width="200dp"
+            android:layout_marginRight="15dp"
+            android:lines="1"
+            android:hint="Enter product name ..."
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_manufacturer"
+            android:layout_below="@+id/input_productname"
+            android:layout_alignParentRight="true"
+            android:width="200dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter manufacturer ..."
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_quantity"
+            android:layout_below="@+id/input_manufacturer"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_marginRight="15dp"
+            android:hint="Enter the quantity ..." />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_barcode"
+            android:layout_below="@+id/input_quantity"
+            android:layout_alignLeft="@+id/input_quantity"
+            android:layout_marginRight="15dp"
+            android:hint="Enter the barcode ..." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addProduct"
+            android:text="Add Product"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="#ff9f00"
+            android:checked="false"
+            android:bottomRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:onClick="addProduct"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scanbutton"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/android"
+            android:maxWidth="100dp"
+            android:isScrollContainer="false"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
