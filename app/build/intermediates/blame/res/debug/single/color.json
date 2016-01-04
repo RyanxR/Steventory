@@ -4,6 +4,10 @@
         "source": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
         "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
     },
@@ -22,5 +26,9 @@
     {
         "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
         "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
     }
 ]
