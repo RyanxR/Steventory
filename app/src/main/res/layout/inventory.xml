@@ -61,7 +61,8 @@
             android:paddingTop="10dp"
             android:textStyle="bold"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp" />
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
 
         <TextView
             android:layout_width="wrap_content"

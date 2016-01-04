@@ -1,12 +1,16 @@
 package com.daafdroid.steventory;
 
+import android.app.AlertDialog;
 import android.app.ListActivity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import android.widget.Toast;
 
 public class Inventory extends ListActivity {
     DBHandler myDBHandler = new DBHandler(this, null, null, 1);
@@ -45,24 +49,29 @@ public class Inventory extends ListActivity {
 
         setListAdapter(cursorAdapter);
 
-        addItemtoList();
+    }
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        // TODO Auto-generated method stub
+        super.onListItemClick(l, v, position, id);
+
+        new AlertDialog.Builder(this)
+                .setTitle("Hello")
+                .setMessage("from " + getListView().getItemAtPosition(position))
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {}
+                        })
+                .show();
+
+        Toast.makeText(Inventory.this,
+                "ListView: " + l.toString() + "\n" +
+                        "View: " + v.toString() + "\n" +
+                        "position: " + String.valueOf(position) + "\n" +
+                        "id: " + String.valueOf(id),
+                Toast.LENGTH_LONG).show();
     }
 
-    private void addItemtoList() {
-        Intent i = getIntent();
-        if(i.getBooleanExtra("adding",false)) {
-            String name = i.getStringExtra("input_name");
-            String manu = i.getStringExtra("input_manufacturer");
-            String q = i.getStringExtra("input_quantity");
-            String code = i.getStringExtra("input_barcode");
-
-            if( !(name.matches("")) || !(manu.matches("")) || !(q.matches("")) || !(code.matches("")) ) {
-                Product product = new Product(name, Integer.parseInt(code), Integer.parseInt(q), manu);
-                myDBHandler.addProduct(product);
-            }
-            i.putExtra("adding", false);
-        }
-    }
 
     public void addNewProduct(View view) {
     //This method is called when button with id "btn_new_product" is clicked

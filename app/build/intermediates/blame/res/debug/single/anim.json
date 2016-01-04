@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\res\\merged\\debug\\anim\\magic.xml",
+        "source": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\src\\main\\res\\anim\\magic.xml"
+    },
+    {
         "merged": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\anim\\magic.xml",
         "source": "C:\\Users\\kappie\\Downloads\\InventoryManager\\InventoryManager\\app\\src\\main\\res\\anim\\magic.xml"
     },
