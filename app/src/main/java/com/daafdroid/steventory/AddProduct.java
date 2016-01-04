@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class AddProduct extends Activity {
 
@@ -46,11 +47,15 @@ public class AddProduct extends Activity {
         String qS = q.getText().toString();
         String codeS = code.getText().toString();
 
-        Product product = new Product(nameS, Integer.parseInt(codeS), Integer.parseInt(qS), manuS);
-        myDBHandler.addProduct(product);
+        if(!(nameS.equals("") || manuS.equals("") || qS.equals("") || codeS.equals(""))) {
+            Product product = new Product(nameS, Integer.parseInt(codeS), Integer.parseInt(qS), manuS);
+            myDBHandler.addProduct(product);
 
-        Intent i = new Intent(this, Inventory.class);
-        startActivity(i);
+            Intent i = new Intent(this, Inventory.class);
+            startActivity(i);
+        } else {
+            Toast.makeText(this, "Fill in all the fields!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void AddInfoFromScan() {
