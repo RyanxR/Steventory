@@ -3,6 +3,7 @@ package com.daafdroid.steventory;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -46,7 +47,7 @@ public class AddProduct extends Activity {
         String qS = q.getText().toString();
         String codeS = code.getText().toString();
 
-        Product product = new Product(nameS, Integer.parseInt(codeS), Integer.parseInt(qS), manuS);
+        Product product = new Product(nameS, Long.parseLong(codeS), Integer.parseInt(qS), manuS);
         myDBHandler.addProduct(product);
 
         Intent i = new Intent(this, Inventory.class);
@@ -55,10 +56,10 @@ public class AddProduct extends Activity {
 
     public void AddInfoFromScan() {
         Intent mIntent = getIntent();
-        boolean scanned = mIntent.getBooleanExtra("Scanned", false);
-        if(scanned) {
             EditText editText = (EditText)findViewById(R.id.input_barcode);
-            editText.setText(mIntent.getIntExtra("Scanned_barcode", 0));
-        }
+
+        String barcode = mIntent.getStringExtra("Scanned_barcode");
+
+        editText.setText(barcode);
     }
 }

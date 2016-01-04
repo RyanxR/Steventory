@@ -7,11 +7,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 public class Scanning extends Activity {
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
 
     static final String ACTION_SCAN = "com.google.zxing.client.android.SCAN";
 
@@ -66,18 +69,20 @@ public class Scanning extends Activity {
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         if (requestCode == 0) {
             if (resultCode == RESULT_OK) {
+                Log.e("DEBUG", "swek");
+                Log.e("DEBUG", String.valueOf(requestCode));
+                Log.e("DEBUG", String.valueOf(resultCode));
                 String contents = intent.getStringExtra("SCAN_RESULT");
-                String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
+                Log.e("DEBUG", String.valueOf(contents));
+                //String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
 
-                boolean test = true;
-
+//
+//                Toast toast = Toast.makeText(this, "Content:" + contents + " Format:" + format, Toast.LENGTH_LONG);
+//                toast.show();
+//
                 Intent myIntent = new Intent(this, AddProduct.class);
                 myIntent.putExtra("Scanned_barcode", contents);
-                myIntent.putExtra("Scanned", test);
                 startActivity(myIntent);
-
-                Toast toast = Toast.makeText(this, "Content:" + contents + " Format:" + format, Toast.LENGTH_LONG);
-                toast.show();
             }
         }
     }

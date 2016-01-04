@@ -4,8 +4,16 @@
         "source": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\src\\main\\res\\drawable-xxxhdpi\\blues.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\android.png",
+        "source": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\src\\main\\res\\drawable-xxxhdpi\\android.png"
+    },
+    {
         "merged": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\blues.png",
         "source": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\src\\main\\res\\drawable-xxxhdpi\\blues.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\blues.png",
+        "source": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\src\\main\\res\\drawable-xxxhdpi\\blues.png"
     },
     {
         "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\blues.png",

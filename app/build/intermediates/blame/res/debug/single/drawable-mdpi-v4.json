@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
         "source": "C:\\Users\\kappie\\Documents\\GitHub\\Steventory\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-mdpi\\common_full_open_on_phone.png"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\RyanxR\\Documents\\GitHub\\InventoryManager\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\user\\Desktop\\Steventory-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-mdpi\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\davinator\\Desktop\\Applications for mobile devices\\Project\\StevintoryV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
