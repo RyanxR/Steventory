@@ -77,35 +77,39 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b001c;
+        public static final int action_settings=0x7f0b0020;
         public static final int addProduct=0x7f0b000d;
         public static final int adjust_height=0x7f0b0000;
         public static final int adjust_width=0x7f0b0001;
-        public static final int btn_new_product=0x7f0b0016;
+        public static final int btn_new_product=0x7f0b0019;
         public static final int container=0x7f0b000f;
         public static final int content=0x7f0b0004;
         public static final int header=0x7f0b0003;
-        public static final int imageView=0x7f0b001b;
+        public static final int imageView=0x7f0b001f;
         public static final int input_barcode=0x7f0b000c;
         public static final int input_manufacturer=0x7f0b0008;
         public static final int input_productname=0x7f0b0006;
         public static final int input_quantity=0x7f0b000a;
-        public static final int item_manufacturer=0x7f0b0018;
-        public static final int item_name=0x7f0b0017;
-        public static final int item_quantity=0x7f0b0019;
+        public static final int item_manufacturer=0x7f0b001c;
+        public static final int item_name=0x7f0b001b;
+        public static final int item_quantity=0x7f0b001d;
+        public static final int linearLayout=0x7f0b0014;
+        public static final int linearLayout2=0x7f0b0015;
+        public static final int linearLayout3=0x7f0b001a;
         public static final int none=0x7f0b0002;
         public static final int scanbutton=0x7f0b000e;
         public static final int scanner=0x7f0b0011;
         public static final int scanner2=0x7f0b0012;
-        public static final int textView=0x7f0b001a;
+        public static final int tabHost=0x7f0b0013;
+        public static final int textView=0x7f0b001e;
         public static final int textView1=0x7f0b0010;
         public static final int textView2=0x7f0b0005;
         public static final int textView3=0x7f0b0007;
         public static final int textView4=0x7f0b0009;
         public static final int textView5=0x7f0b000b;
-        public static final int title_manufacturer=0x7f0b0014;
-        public static final int title_productname=0x7f0b0013;
-        public static final int title_quantity=0x7f0b0015;
+        public static final int title_manufacturer=0x7f0b0017;
+        public static final int title_productname=0x7f0b0016;
+        public static final int title_quantity=0x7f0b0018;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f090000;

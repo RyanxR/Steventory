@@ -8,12 +8,12 @@ public class Product {
 
     //private int id; //id is only needed in DB not in class ?
     private String productName;
-    private int barcode;
+    private long barcode;
     private int quantity;
     private String manufacturer;
 
     //Constructor method
-    public Product(String productName, int barcode, int quantity, String manufacturer) {
+    public Product(String productName, long barcode, int quantity, String manufacturer) {
         //this.id = id;
         this.productName = productName;
         this.barcode = barcode;
@@ -27,7 +27,7 @@ public class Product {
     public String getProductName() { return this.productName; }
 
     public String getManufacturer() { return this.manufacturer; }
-    public int getBarcode() { return this.barcode; }
+    public long getBarcode() { return this.barcode; }
 
     public int getQuantity() { return this.quantity; }
     public void setQuantity(int quantity) { this.quantity = quantity; }

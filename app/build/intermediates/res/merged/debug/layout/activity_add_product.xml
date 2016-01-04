@@ -112,7 +112,8 @@
             android:layout_below="@+id/input_manufacturer"
             android:layout_toRightOf="@+id/textView3"
             android:layout_marginRight="15dp"
-            android:hint="Enter the quantity ..." />
+            android:hint="Enter the quantity ..."
+            android:text="1" />
 
         <EditText
             android:layout_width="wrap_content"
